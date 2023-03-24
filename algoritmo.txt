@@ -1,0 +1,13 @@
+ler morangos,macas e bananas
+
+valorTotal <- morangos * 2.5 + macas * 1.8 + bananas * 1.3
+
+se morangos + macas + bananas > 8 ou valorTotal > 25 então
+    //desconto <- valorTotal * 0.1
+senão
+    //desconto <- 0
+
+valorFinal <- valorTotal - desconto
+
+exibir o valor final
+    
